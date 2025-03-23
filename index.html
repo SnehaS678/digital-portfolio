@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sneha's portfolio</title>
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            margin:0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        header{
+            background: #333
+            color:white;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li{
+            display:inline;
+            margin:0 15px;
+        }
+        nav ul li a{
+            color: rgb(43, 226, 80);
+            text-decoration: none;
+        }
+        section{
+
+        padding: 50px;
+        background: rgb(255, 255, 255);
+        margin: 20px;
+        border-radius: 10px;
+        }
+        #profilo img{
+            width: 150px;
+            height: 150px;
+            border-radius:50%;
+            object-fit:cover ;
+        }
+        ui{
+            list-style: none;
+        }
+        .download_btn{
+            display: inline-block;
+            padding:10px 20px;
+            background:#333;
+            color:white;
+            text-decoration:none;
+            border-radius: 5px;
+        }
+        .download-bin:hover{
+            background: #555;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>sneha's portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#cv">Cv</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <section id="profile">
+        <img scr=https:\\raw.githubusercontent.com\SnehaS678\digital-portfolio\main\my_photo.jpg"
+        alt="sneha's profile photo">
+        <h2>sneha</h2>
+        <p>Am computer application student</p>
+    </section>
+         <section id="about">
+            <h2>About Me</h2>
+            <p>Hi ,I'm sneha,a BCA student and passiontate computer science enthusiant with strong programming and softwarre development Skills
+,i'm excited to apply my knowlege to real-world problem.</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Html,Css,Javascript</li>
+                    <li>python,c++,datastructure</li> 
+                    <li>java,mysql,php</li>
+
+                </ul>
+            </section>
+    
+<section id="cv">
+    <h2>download my CV</h2>
+    <a href="my_resume.pdf"download="my_resume.pdf"
+    class="download_bin"onclick="downloadAlert()">downloadCV</a>
+
+</section>
+<script>
+    function downloadAlert(){
+        alert("your cv is being download!");
+    }
+
+</script>
+</body>
+</html>
